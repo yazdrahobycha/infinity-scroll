@@ -45,7 +45,7 @@ async function getPhotoes() {
         jsonData = await response.json();
         displayPhotos();
     } catch (error) {
-        alert('Error: Exeded API requests, Im sorry brooo, wait an hour or so plz');
+        alert('Error: Exeded API requests.\n Im sorry brooo, wait an hour or so plz');
     }
 }
 
